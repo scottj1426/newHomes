@@ -67,3 +67,41 @@ footer {
     background-color: #fff;
     display: flex;
 }
+
+#topbar {
+    background: #fff;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+  }
+
+  .welcome-container {
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
+    padding: 1%;
+    margin: 5%;
+   
+
+  }
+
+  .welcome-message{
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      font-family: 'Roboto', sans-serif;
+      text-decoration: underline overline;
+    
+  }
+
+  .welcome-sub{
+    display: flex;
+    width: 100%;
+   justify-content: center;
+   font-family: 'Roboto', sans-serif;
+}
+
+.widget{
+    z-index: 100;
+ position: relative;
+    
+}
