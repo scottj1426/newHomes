@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #fff;
+    font-family: 'Courgette', cursive;
   
 }
 
@@ -63,7 +64,6 @@ footer {
     flex-direction: column;
     justify-content: center;
     font-size: 1em;
-    font-family: 'Roboto', sans-serif;
     text-align: center; 
 }
 
@@ -82,7 +82,6 @@ footer {
 
   .welcome-container {
     flex-direction: row;
-    font-family: 'Roboto', sans-serif;
     padding: 1%;
     margin: 2%;
    
@@ -93,8 +92,6 @@ footer {
       display: flex;
       width: 100%;
       justify-content: center;
-      font-family: 'Roboto', sans-serif;
-      text-decoration: underline overline;
     
   }
 
@@ -102,7 +99,6 @@ footer {
     display: flex;
     width: 100%;
    justify-content: center;
-   font-family: 'Roboto', sans-serif;
 }
 
 .widget{
