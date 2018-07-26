@@ -15,7 +15,7 @@ footer {
 
 .nav-bar-container {
     width: 100%;
-    height: 10%;
+    height: 12%;
     background-color: #fff;
     display: flex;
     padding-top: 2%;
@@ -32,13 +32,16 @@ footer {
     height: 75.6px;
 }
 
-.logo1-container {
+logo1-container {
+    display: block;
+    flex-direction: row;
+    width: 100%;
     display: flex;
     flex:1;
     flex-direction: column;
-    justify-content: right;
-     padding-left: 10%;
-    width: 33%;
+    justify-content: center;
+     padding-left: 25%; 
+
 }
 
 .logo2-container {
@@ -47,7 +50,7 @@ footer {
     flex-direction: column;
     justify-content: center;
      padding-left: 10%; 
-    width: 33%
+    width: 50%
 }
 
 .header-pic {
@@ -63,7 +66,7 @@ footer {
     flex:1;
     flex-direction: column;
     justify-content: center;
-    font-size: 1em;
+    font-size: 0.5em;
     text-align: center; 
 }
 
@@ -141,7 +144,7 @@ footer-items {
         justify-content: space-evenly;
     }
     .logo1-container {
-        width: 15%;
+        padding: 0;
     }
     .logo2-container {
         width: 15%;
@@ -150,8 +153,8 @@ footer-items {
     }
 
     .header-container{
-        font-size: 0.1em;
-        padding-left: 10%; 
+        font-size: 1em;
+        /* padding-left: 10%;  */
         
     }
     .welcome-message{
@@ -163,6 +166,8 @@ footer-items {
         display: block;
         flex-direction: row;
         width: 100%;
+        height: 50%;
+        padding-bottom: 20%; 
     }
 
     #pp{
